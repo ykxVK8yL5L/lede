@@ -1,10 +1,6 @@
-# .github/workflows/sync.yml
 name: Sync Fork
 
 on:
-  schedule:
-    # - cron:  '0 1 * * *'
-    # scheduled at 07:00 every Monday and Thursday
   workflow_dispatch:
 
 jobs:
